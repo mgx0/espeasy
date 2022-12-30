@@ -1227,7 +1227,7 @@ To create/register a plugin, you have to :
     #define USES_P013   // HCSR04
     #define USES_P014   // SI7021
     #define USES_P015   // TSL2561
-//    #define USES_P016   // IR
+    //#define USES_P016   // IR
     #define USES_P017   // PN532
     #define USES_P018   // Dust
     #define USES_P019   // PCF8574
@@ -1248,7 +1248,7 @@ To create/register a plugin, you have to :
     #define USES_P032   // MS5611
     #define USES_P033   // Dummy
     #define USES_P034   // DHT12
-//    #define USES_P035   // IRTX
+    //#define USES_P035   // IRTX
     #define USES_P036   // FrameOLED
     #define USES_P037   // MQTTImport
     #define USES_P038   // NeoPixel
@@ -1272,6 +1272,8 @@ To create/register a plugin, you have to :
     #define USES_P063   // TTP229_KeyPad
     #define USES_P073   // 7DGT
     #define USES_P079   // Wemos Motoshield
+    #define USES_P111
+    #define USES_P112
 #endif
 
 
